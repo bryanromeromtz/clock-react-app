@@ -10,6 +10,7 @@ export default function DarkLightMode() {
     <div className={darkMode ? "dark-mode" : "light-mode"}>
       <div className="container">
         <Clock />
+
         <div className="grid-wrapper">
           <span className="sun" style={{ color: darkMode ? "grey" : "yellow" }}>☀︎</span>
           <div className="switch-checkbox">
